@@ -82,7 +82,15 @@ score_alpha = 1             # Matching score
 score_beta = 0             # Mismatching penalty
 score_gamma = 0            # Gap penalty
 
-seq_alpha = input("Please input the first sequence: ")
-seq_beta = input("Please input the second sequence: ")
+# Read the file
+str1 = input('Please enter the file path and the name: ')
+seq_txt = open(str1, 'r')
+seq_list = seq_txt.readlines()
+print("There are %d sequences in the text." % (len(seq_list)))
+for l in range(len(seq_list)):
+    seq_list[l] = seq_list[l].strip('\n')
+
+seq_alpha = seq_list[0]
+seq_beta = seq_list[1]
 print("The length of seq1 and seq2 are %d and %d, respectively." % (len(seq_alpha), len(seq_beta)))
 traceback(seq_alpha, seq_beta)
