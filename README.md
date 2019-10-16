@@ -47,4 +47,8 @@ As for the homework attachment, the length of the sequence 1 and sequence 2 are 
 And the Length of the LCS is ***1015***.
 
 
-![avater](Origin Output.png)
+
+#### The Oringin Output:
+
+![op](Origin Output.png)
+
