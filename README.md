@@ -48,4 +48,4 @@ And the Length of the LCS is ***1015***.
 
 
 
-![op](Origin Output.png)
+![op](~/Origin Output.png)
