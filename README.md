@@ -50,5 +50,5 @@ And the Length of the LCS is ***1015***.
 
 #### The Oringin Output:
 
-![op](/Users/yu215867812/Desktop/Alignment/Output.png)
+![op](Output.png)
 
